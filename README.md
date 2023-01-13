@@ -6,7 +6,7 @@
 
 # **개발 환경 셋팅 과정**
 **Step 1. 작업 폴더 생성** <br/>
-VSCode를 새로 실행하고, 폴더명을 i2max_ojt_1로 하여 생성합니다.
+VSCode를 새로 실행하고, 폴더명을 i2max_ojt_1으로 하여 생성합니다.
 
 **Step 2. [Terminal] npm init 실행**
 
