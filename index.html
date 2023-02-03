@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
     <head>
         <meta charset="UTF-8">
+        <mete name="viewport" content="width=device-width, initial-scale=1.0"></mete>
+
+        <link rel="stylesheet" type="text/css" href="/style.css">
+
+        <script src="/postAccessToken.js"></script>
+        <script src="/createBoard.js"></script>
+        <script src="/updateBoard.js"></script>
+        <script src="/deleteBoard.js"></script>
+
         <title>신입 OJT 23년 1월 12일</title>
     </head>
     <body>
-        <div>Hello World3</div>
+        <div class="container">
+            <button type="button" id="btn_access_token">토큰 발행</button>
+            <input type="text" id="access_token" name="access_token" placeholder="토큰 입력" required/>
+        </div>
+
+        <div class="container">
+            <div>
+                <input type="text" id="title" name="title" placeholder="게시글 제목" required/>
+                <input type="text" id="writer" name="writer" placeholder="게시글 글쓴이" required/>
+            </div>
+            <div>
+                <textarea id="msg" name="msg" placeholder="게시글 내용" required></textarea>
+            </div>
+
+            <button type="button" id="btn_create_board">제출 버튼</button>
+        </div>
+       
+        <hr>
+            
+        <div id="addBoard"></div>
     </body>
 </html>
