@@ -1,0 +1,76 @@
+body .container
+{
+  margin: 10px auto;
+  width: 600px;
+}
+
+input, textarea, button {
+    font: 1em sans-serif;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input {
+  float: left;
+  width: 300px;
+}
+
+button {
+  background-color: blanchedalmond;
+  width: 600px;
+}
+
+button:hover {
+  background-color: rgb(153, 76, 0);
+  color: white;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+    width: 600px;
+}
+
+hr {
+  margin: 10px auto;
+  border: dashed 2px burlywood; 
+  width: 600px;
+}
+
+#btn_access_token {
+  border-radius: 4px;
+  margin: auto 12px 5px auto;
+  width: 18%;
+  height: 40px;
+  float:left;
+}
+
+#access_token {
+  border-radius: 4px;
+  margin: auto auto 5px auto;
+  width: 80%;
+  height: 40px;
+}
+
+#btn_update_board {
+  background-color: cornflowerblue;
+  width: 50%;
+  float: left;
+}
+
+#btn_update_board:hover {
+  background-color: rgb(153, 76, 0);
+  color: white;
+}
+
+#btn_delete_board {
+  background-color: lightcoral;
+  width: 50%;
+}
+
+#btn_delete_board:hover {
+  background-color: rgb(153, 76, 0);
+  color: white;
+}

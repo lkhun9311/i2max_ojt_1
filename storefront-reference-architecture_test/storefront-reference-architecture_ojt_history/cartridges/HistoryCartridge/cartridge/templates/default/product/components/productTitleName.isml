@@ -1,0 +1,7 @@
+<div class="pdp-link">
+    <a class="link" href="${pdict.urls.product}" custom = '${URLUtils.url("Product-ProductHistory")}'>${product.productName}</a>
+    <form action = '${URLUtils.url("Product-ProductHistory")}'>
+        <input type = "hidden" value = "${product.productName}" name = "c_item_test"/>
+        <input type = "hidden" value = "${product.productName}" name = "c_item_name"/>
+    </form>
+</div>
