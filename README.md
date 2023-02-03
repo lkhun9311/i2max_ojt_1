@@ -1,4 +1,9 @@
-# i2max_ojt_1
+# i2max_ojt_1 <br/>
+
+# **Notion** <br/>
+프로젝트에 대한 설명을 **Notion**에 정리했습니다.<br/>
+[기본 게시판 REST API 구현(VanillaJs, Node.js, Express.js)](https://quixotic-network-2a6.notion.site/REST-API-VanillaJs-Node-js-Express-js-feb16aa578904702bce4ae2e2c952716)<br/>
+[Custom Object “history” 기능 구현(storefront-reference-architecture_test)](https://quixotic-network-2a6.notion.site/Custom-Object-history-storefront-reference-architecture_test-431478a7e5cf4ea28b42b749fb91b410)<br/>
 
 # **개발 환경**
 **node** &nbsp; v14.20.0 <br/>
